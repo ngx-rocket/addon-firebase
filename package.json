@@ -2,6 +2,7 @@
   "name": "generator-addon-firebase",
   "version": "1.0.0",
   "description": "Add Firebase deployment to ngX-Rocket apps",
+  "repository": "ngx-rocket/addon-firebase",
   "main": "./generators/app/index.js",
   "scripts": {
     "test": "eslint generators/app/*.js",
@@ -15,6 +16,10 @@
   ],
   "author": "Yohan Lasorsa",
   "license": "MIT",
+  "homepage": "https://github.com/ngx-rocket/addon-firebase",
+  "bugs": {
+    "url": "https://github.com/ngx-rocket/addon-firebase/issues"
+  },
   "dependencies": {
     "@ngx-rocket/core": "^2.1.0",
     "chalk": "^2.0.1"
