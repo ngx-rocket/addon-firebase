@@ -1,7 +1,7 @@
 {
   "name": "generator-addon-firebase",
   "version": "1.0.0",
-  "description": "ngX-Rocket Firebase deploy add-on",
+  "description": "Add Firebase deployment to ngX-Rocket apps",
   "main": "./generators/app/index.js",
   "scripts": {
     "test": "eslint generators/app/*.js",

@@ -1,6 +1,6 @@
 # :rocket: generator-addon-firebase
 
-> ngX-Rocket Firebase deploy add-on
+> Add Firebase deployment to ngX-Rocket apps
 
 This add-on configures Firebase and adds a `deploy` script to deploy your application using Firebase hosting.
 
