@@ -2,12 +2,12 @@
 
 > ngX-Rocket Firebase deploy add-on
 
-This add-on was created from [ngX-Rocket add-on generator](https://github.com/ngx-rocket/generator-ngx-rocket-addon/)
-version 1.1.2.
+This add-on configures Firebase and adds a `deploy` script to deploy your application using Firebase hosting.
 
 # Requirements
 
 A valid [Firebase account](https://firebase.google.com) is needed to use this add-on.
+You also have to create a Firebase project to deploy your application.
 
 # Installation
 
@@ -24,12 +24,7 @@ npm install -g @ngx-rocket/cli firebase-tools generator-addon-firebase
    ngx new
    ```
 
-2. Login to Firebase (if needed)
-   ```sh
-   firebase login
-   ```
-   
-3. Deploy your app
+2. Deploy your app
    ```sh
    npm run deploy
    ```
