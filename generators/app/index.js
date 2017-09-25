@@ -28,7 +28,7 @@ class AddonFirebaseGenerator extends Generator {
 
   end() {
     if (!this.updating) {
-      this.log(`- $ ${chalk.green('run deploy')}: deploy app to Firebase`);
+      this.log(`- $ ${chalk.green('npm run deploy')}: deploy app to Firebase`);
     }
   }
 }
