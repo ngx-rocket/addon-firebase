@@ -15,19 +15,21 @@ class AddonFirebaseGenerator extends Generator {
   }
 
   install() {
-    this.log(`\nConfiguring ${chalk.cyan('Firebase')}:\n`);
-    const result = this.spawnCommandSync('firebase', ['login']);
+    if (this.props.firebaseDeploy) {
+      this.log(`\nConfiguring ${chalk.cyan('Firebase')}:\n`);
+      const result = this.spawnCommandSync('firebase', ['login']);
 
-    if (result.error) {
-      this.log(`${chalk.red('Firebase CLI is not installed!')}`);
-      this.log(`You have to run ${chalk.yellow('npm install -g firebase-tools')} and ${chalk.yellow('firebase use --add')} manually`);
-    } else {
-      this.spawnCommandSync('firebase', ['use', '--add']);
+      if (result.error) {
+        this.log(`${chalk.red('Firebase CLI is not installed!')}`);
+        this.log(`You have to run ${chalk.yellow('npm install -g firebase-tools')} and ${chalk.yellow('firebase use --add')} manually`);
+      } else {
+        this.spawnCommandSync('firebase', ['use', '--add']);
+      }
     }
   }
 
   end() {
-    if (!this.updating) {
+    if (this.props.firebaseDeploy && !this.updating) {
       this.log(`- $ ${chalk.green('npm run deploy')}: deploy app to Firebase`);
     }
   }
