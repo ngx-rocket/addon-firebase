@@ -1,6 +1,6 @@
 {
   "name": "generator-addon-firebase",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add Firebase deployment to ngX-Rocket apps",
   "repository": "ngx-rocket/addon-firebase",
   "main": "./generators/app/index.js",
