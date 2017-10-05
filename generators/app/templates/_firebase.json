@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist",
+    "public": "<%= props.target && props.target.includes('cordova') ? 'www' : 'dist' %>",
     "ignore": [
       "firebase.json",
       "**/.*",
