@@ -1,3 +1,6 @@
+# 1.0.4
+- Fixed files being added even if not enabled
+
 # 1.0.3
 - Fixed deploy for Cordova apps
 
