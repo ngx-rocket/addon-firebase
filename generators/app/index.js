@@ -45,5 +45,8 @@ module.exports = Generator.make({
       message: 'Use Firebase deploy?',
       default: true
     }
-  ]
+  ],
+  prefixRules: Object.assign(Generator.defaultPrefixRules, {
+    deploy: props => Boolean(props.firebaseDeploy)
+  })
 });
