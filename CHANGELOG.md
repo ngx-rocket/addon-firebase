@@ -1,3 +1,6 @@
+# 1.1.0
+- Added support for Yarn
+
 # 1.0.4
 - Fixed files being added even if not enabled
 
