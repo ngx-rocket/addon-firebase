@@ -17,10 +17,10 @@ You also have to create a Firebase project to deploy your application.
 
 # Installation
 
-Install [ngX-Rocket CLI](https://github.com/ngx-rocket/cli), [Firebase CLI](https://github.com/firebase/firebase-tools) and this add-on:
+Install [ngX-Rocket](https://github.com/ngx-rocket/generator-ngx-rocket), [Firebase CLI](https://github.com/firebase/firebase-tools) and this add-on:
 
 ```sh
-npm install -g @ngx-rocket/cli firebase-tools generator-addon-firebase
+npm install -g generator-ngx-rocket firebase-tools generator-addon-firebase
 ```
 
 # Usage
@@ -35,7 +35,7 @@ npm install -g @ngx-rocket/cli firebase-tools generator-addon-firebase
    npm run deploy
    ```
 
-See [ngX-Rocket CLI](https://github.com/ngx-rocket/cli) for more information.
+See [ngX-Rocket CLI](https://github.com/generator-ngx-rocket/tree/master/cli) for more information.
 
 # License
 
