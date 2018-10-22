@@ -1,3 +1,10 @@
+# 2.0.0
+- Updated dependencies and fixed vulnerabilities
+- Migrated to xo + prettier for linting/formatting
+
+### Breaking changes
+- Updated to `@ngx-rocket/core@4`
+
 # 1.1.0
 - Added support for Yarn
 
