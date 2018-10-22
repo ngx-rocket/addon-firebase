@@ -5,7 +5,7 @@
   "repository": "ngx-rocket/addon-firebase",
   "main": "./generators/app/index.js",
   "scripts": {
-    "test": "eslint generators/app/*.js",
+    "test": "xo generators/app/*.js",
     "postpublish": "git tag -a $npm_package_version -m '$npm_package_version' && git push --tags"
   },
   "keywords": [
@@ -21,18 +21,18 @@
     "url": "https://github.com/ngx-rocket/addon-firebase/issues"
   },
   "dependencies": {
-    "@ngx-rocket/core": "^3.1.0",
-    "chalk": "^2.3.0"
+    "@ngx-rocket/core": "^4.0.0",
+    "chalk": "^2.4.1"
   },
   "devDependencies": {
-    "eslint": "^4.11.0",
-    "eslint-config-xo-space": "^0.17.0"
+    "xo": "^0.23.0"
   },
   "engines": {
     "node": ">=6.0.0"
   },
-  "eslintConfig": {
-    "extends": "xo-space/esnext"
+  "xo": {
+    "space": true,
+    "prettier": true
   },
   "files": [
     "generators/app"

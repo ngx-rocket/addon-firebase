@@ -21,7 +21,11 @@ class AddonFirebaseGenerator extends Generator {
 
       if (result.error) {
         this.log(`${chalk.red('Firebase CLI is not installed!')}`);
-        this.log(`You have to run ${chalk.yellow('npm install -g firebase-tools')} and ${chalk.yellow('firebase use --add')} manually`);
+        this.log(
+          `You have to run ${chalk.yellow('npm install -g firebase-tools')} and ${chalk.yellow(
+            'firebase use --add'
+          )} manually`
+        );
       } else {
         this.spawnCommandSync('firebase', ['use', '--add']);
       }
