@@ -1,6 +1,6 @@
 {
   "name": "generator-addon-firebase",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Add Firebase deployment to ngX-Rocket apps",
   "repository": "ngx-rocket/addon-firebase",
   "main": "./generators/app/index.js",
@@ -21,11 +21,11 @@
     "url": "https://github.com/ngx-rocket/addon-firebase/issues"
   },
   "dependencies": {
-    "@ngx-rocket/core": "^4.0.0",
-    "chalk": "^2.4.1"
+    "@ngx-rocket/core": "^5.0.1",
+    "chalk": "^2.4.2"
   },
   "devDependencies": {
-    "xo": "^0.23.0"
+    "xo": "^0.24.0"
   },
   "engines": {
     "node": ">=6.0.0"
