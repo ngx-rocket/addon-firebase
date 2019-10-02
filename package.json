@@ -25,7 +25,8 @@
     "chalk": "^2.4.2"
   },
   "devDependencies": {
-    "xo": "^0.24.0"
+    "xo": "^0.24.0",
+    "eslint-utils": "1.4.1"
   },
   "engines": {
     "node": ">=6.0.0"
