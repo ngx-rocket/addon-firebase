@@ -21,7 +21,7 @@
     "url": "https://github.com/ngx-rocket/addon-firebase/issues"
   },
   "dependencies": {
-    "@ngx-rocket/core": "^5.0.1",
+    "@ngx-rocket/core": "^5.0.2",
     "chalk": "^2.4.2"
   },
   "devDependencies": {
