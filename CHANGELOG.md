@@ -1,3 +1,6 @@
+# 3.0.1
+- Updated dependencies and fixed vulnerabilities
+
 # 3.0.0
 - Updated dependencies and fixed vulnerabilities
 
