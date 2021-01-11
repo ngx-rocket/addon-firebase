@@ -1,5 +1,0 @@
-{
-  "scripts": {
-    "deploy": "npm run build -s && firebase deploy"
-  }
-}
